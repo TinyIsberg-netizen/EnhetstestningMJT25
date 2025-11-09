@@ -1,0 +1,30 @@
+For each class in the main/java/iths directory, write unittests.
+
+✅ Test ideas for Calculator.java:
+ - add(2,3) → 5
+ - divide(10,2) → 5.0
+ - division by zero → throws IllegalArgumentException.
+
+✅ Test ideas for PalindromeChecker:
+ - "madam" → true
+ - "hello" → false
+ - "A man, a plan, a canal, Panama" → true
+ - null → false
+
+✅ Test ideas for LeapYear:
+ - 2000 → true
+ - 1900 → false
+ - 2024 → true
+ - Negative year → exception
+
+✅ Test ideas for GradeCalculator:
+ - 95 → 'A'
+ - 85 → 'B'
+ - 50 → 'F'
+ - -5 or 105 → exception
+
+✅ Test ideas for TemperatureConverter:
+ - 0°C → 32°F
+ - 100°C → 212°F
+ - 32°F → 0°C
+ - Round-trip conversion gives approximately the same value.
