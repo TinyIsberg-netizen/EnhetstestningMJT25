@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
-    @Test
 
+    @Test
     void testAddOnePlusTwoEqualsThree() {
         Calculator cal = new Calculator();
 
